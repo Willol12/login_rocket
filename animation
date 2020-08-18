@@ -1,0 +1,27 @@
+##Animation
+8 propriedades: 
+- animation-name: anamationname;
+- animation-duration: 2s
+-animation-delay: 3s
+-animation-fill-mode: none;  
+esse comando de cima vai avisar se a animação vai ficar parada na posição inicial ou final
+- animation-play-state: running;
+vai avisar se está rodando ou com pause
+-animation-timing-function: ease;
+o function como que é a progressão da animação
+-animation-direction: reverse;
+qual rumo a animação vai tomar normal ou reverse
+-animation-iteration-count: infinite;
+Esse é meio que o tempo da animação pode ser limitada ou ilimitada
+
+@keyframes animationname {
+  0%
+}
+dentro de 0% a 100% colocar as propriedades da animação
+100% {
+
+}
+para criar uma animação
+
+podemos ter mútiplas animações no mesmo elemento
+animation: slide-top 2s, bounce 1s, fade 0.2s;

@@ -1,0 +1,5 @@
+[x] Criar alguns quadrados animadis(que fiquem girando) 
+E que saem de baixo da tela(fora do campo de visão) 
+E vão para cima da tela(que saia do campo de visão também).
+Detalhes: Deve ter tamanhos diferentes, sairem em momentos diferentes, 
+terem timing diferentes, animação continua
